@@ -2,12 +2,11 @@
 
 :root {
 	/* ========== Colors ========== */
-	--bg-black-color: #0f0f0f;
-	--nav-bg-black-color: #151515;
-	--text-color: #1b1b1b;
-	--text-color-light: #ffffff;
-	--text-color-black: #000000;
-	--text-color-main: #ffe600;
+	--bg-black-color: #ffc;
+	--ui-color: #f9c06a;
+	--text-color-main: #603809;
+	--text-color-light: #fff;
+	--text-color-black: #1e1e1e;
 
 	/* ========== Font and Typography  ========== */
 	--body-font: 'Playfair Display', serif;
@@ -39,7 +38,7 @@ html {
 }
 
 body {
-	font-family: 'Merriweather';
+	font-family: var(--body-font);
 	background-color: var(--bg-black-color);
 }
 
@@ -57,4 +56,7 @@ input {
 
 .hidden {
 	display: none;
+}
+
+.hamburger {
 }
